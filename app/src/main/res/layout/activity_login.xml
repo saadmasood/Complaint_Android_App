@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:custom="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="pk.com.ke.complaint.LoginActivity">
+
+    <ImageView
+        android:id="@+id/keLoginLogo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/_50sdp"
+        android:background="@drawable/login_logo" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/keLoginLogo">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/keLoginTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/_20sdp"
+                android:layout_marginTop="@dimen/_40sdp"
+                android:fontFamily="@string/roboto_light"
+                android:text="Login"
+                android:textColor="#808080"
+                android:textSize="@dimen/_16sdp"
+                android:textStyle="bold"
+
+                />
+
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/textInputEmail"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/keLoginTextView"
+                android:layout_marginTop="@dimen/_15sdp"
+                android:paddingLeft="@dimen/_15sdp"
+                android:paddingRight="@dimen/_15sdp">
+
+                <AutoCompleteTextView
+                    android:id="@+id/userid"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Enter User ID"
+                    android:inputType="textEmailAddress|text"
+                    android:maxLines="1"
+                    android:singleLine="true"
+                    android:text="" />
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/textInputPassword"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/textInputEmail"
+                android:layout_marginTop="@dimen/_15sdp"
+                android:paddingLeft="@dimen/_15sdp"
+                android:paddingRight="@dimen/_15sdp">
+
+                <EditText
+                    android:id="@+id/pwd"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Enter Password"
+                    android:imeActionId="@+id/login"
+                    android:imeActionLabel="@string/action_sign_in_short"
+                    android:imeOptions="actionUnspecified"
+                    android:inputType="textPassword"
+                    android:maxLines="1"
+                    android:singleLine="true"
+                    android:text="" />
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+
+            <!--<EditText-->
+            <!--android:id="@+id/userid"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_below="@+id/keLoginTextView"-->
+            <!--android:layout_marginLeft="@dimen/_20sdp"-->
+            <!--android:layout_marginTop="@dimen/_20sdp"-->
+            <!--android:fontFamily="@string/roboto_light"-->
+            <!--android:hint="User ID"-->
+            <!--android:inputType="text"-->
+            <!--android:text="88110"-->
+            <!--android:textColor="#000"-->
+            <!--android:textSize="@dimen/_13sdp" />-->
+
+            <!--<EditText-->
+            <!--android:id="@+id/pwd"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_alignLeft="@+id/userid"-->
+            <!--android:layout_alignStart="@+id/userid"-->
+            <!--android:layout_below="@+id/userid"-->
+            <!--android:layout_marginTop="16dp"-->
+            <!--android:fontFamily="@string/roboto_light"-->
+            <!--android:hint="Password"-->
+            <!--android:inputType="textPassword"-->
+            <!--android:text="123"-->
+            <!--android:textColor="#000"-->
+            <!--android:textSize="@dimen/_13sdp" />-->
+
+
+            <!--<android.support.v7.widget.AppCompatButton-->
+            <!--android:id="@+id/keLoginBtn"-->
+            <!--android:layout_width="@dimen/_250sdp"-->
+            <!--android:layout_height="@dimen/_40sdp"-->
+            <!--android:layout_below="@+id/textInputPassword"-->
+            <!--android:layout_centerHorizontal="true"-->
+            <!--android:layout_marginTop="79dp"-->
+            <!--android:text="Login"-->
+            <!--android:textAllCaps="false"-->
+            <!--android:textColor="@android:color/white" />-->
+
+
+            <pk.com.ke.com.processbutton.iml.ActionProcessButton
+                android:id="@+id/keLoginBtn"
+                android:layout_width="match_parent"
+                android:layout_height="55dp"
+                android:layout_below="@+id/textInputPassword"
+                android:layout_marginBottom="@dimen/_15sdp"
+                android:layout_marginLeft="@dimen/_15sdp"
+                android:layout_marginRight="@dimen/_15sdp"
+                android:layout_marginTop="@dimen/_15sdp"
+                android:text="Login"
+                android:textColor="@android:color/white"
+                android:textSize="18sp"
+                custom:pb_colorComplete="@color/green_complete"
+                custom:pb_colorError="@color/red_error"
+                custom:pb_colorNormal="@color/color_login_normal"
+                custom:pb_colorPressed="@color/color_login_pressed"
+                custom:pb_colorProgress="@color/blue_pressed"
+                custom:pb_cornerRadius="5dp"
+                custom:pb_textComplete="Success"
+                custom:pb_textError="Error"
+                custom:pb_textProgress="Processing..." />
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

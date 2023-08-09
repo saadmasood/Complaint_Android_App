@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/complaint_app_pm_app.git.iml" filepath="$PROJECT_DIR$/.idea/modules/complaint_app_pm_app.git.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/complaint_app_pm_app.git.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/complaint_app_pm_app.git.app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/lib_android-easylocation/complaint_app_pm_app.git.lib_android-easylocation.iml" filepath="$PROJECT_DIR$/.idea/modules/lib_android-easylocation/complaint_app_pm_app.git.lib_android-easylocation.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/lib_easypermissions/complaint_app_pm_app.git.lib_easypermissions.iml" filepath="$PROJECT_DIR$/.idea/modules/lib_easypermissions/complaint_app_pm_app.git.lib_easypermissions.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/lib_splash/complaint_app_pm_app.git.lib_splash.iml" filepath="$PROJECT_DIR$/.idea/modules/lib_splash/complaint_app_pm_app.git.lib_splash.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/lib_ticker/complaint_app_pm_app.git.lib_ticker.iml" filepath="$PROJECT_DIR$/.idea/modules/lib_ticker/complaint_app_pm_app.git.lib_ticker.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/lib_timelineview/complaint_app_pm_app.git.lib_timelineview.iml" filepath="$PROJECT_DIR$/.idea/modules/lib_timelineview/complaint_app_pm_app.git.lib_timelineview.iml" />
+    </modules>
+  </component>
+</project>

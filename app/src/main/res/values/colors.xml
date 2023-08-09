@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--<color name="colorAccent">@color/colorKeBlue</color>-->
+    <!--<color name="colorPrimary">@color/colorKeGreen</color>-->
+
+    <color name="colorAccent">#8782de</color>
+    <color name="colorPrimary">#8782de</color>
+
+    <color name="colorKeGreen">#8EC600</color>
+    <color name="colorKeGreenDark">#7710FF0F</color>
+    <color name="colorKeBlack">#3D3D3D</color>
+    <color name="colorKeBlue">#2288cc</color>
+    <color name="colorKeOrange">#F39600</color>
+    <color name="colorUGM">#ff9933</color>
+    <color name="colorGrey">#787878</color>
+    <color name="yellow">#FFD700</color>
+
+    <color name="colorAssigned">#8EC600</color>
+    <color name="colorOpen">#F32100</color>
+    <color name="colorSG">#F39600</color>
+    <color name="colorInProcess">#248FD6</color>
+    <color name="colorComplete">#CF85EB</color>
+
+    <color name="dark_red">#40000c</color>
+    <color name="window_background">#FFF5F5F5</color>
+
+    <color name="color_ke_blue">#0d94cc</color>
+
+    <color name="labelColor">#333232</color>
+
+    <color name="colorBg">#3399fe</color>
+    <color name="color_ke_green">#b3d600</color>
+    <color name="color_ke_orange">#f9972c</color>
+    <color name="color_login_pressed">#df8109</color>
+    <!-- <color name="color_login_pressed">#bebebe</color> -->
+    <color name="color_login_normal">#ff9c00</color>
+    <color name="blue_pressed">#ff0099cc</color>
+    <color name="blue_normal">#ff33b5e5</color>
+    <color name="green_complete">#ff99cc00</color>
+    <color name="purple_progress">#ffaa66cc</color>
+    <color name="red_error">#ffff4444</color>
+    <color name="holo_blue_bright">#ff00ddff</color>
+    <color name="holo_green_light">#ff99cc00</color>
+    <color name="holo_orange_light">#ffffbb33</color>
+    <color name="holo_red_light">#ffff4444</color>
+
+    <!-- Student Name Color -->
+    <color name="studentNameColor">#ff0099cc</color>
+    <color name="bg_activity">#DD226747</color>
+    <color name="old_heading_color">#6C569F</color>
+    <color name="new_heading_color">#0022ff</color>
+
+    <color name="f_dark_orange">#e9972d</color>
+    <color name="f_orange">#ffa736</color>
+    <color name="f_blue">#4179d6</color>
+    <color name="f_dark_gray_2">#646464</color>
+    <color name="f_dark_gray">#7d7d7d</color>
+    <color name="n_blue">#169fe7</color>
+
+
+    <color name="touch_effect">#9ccc</color>
+
+    <color name="material_animations_primary">#039BE5</color>
+    <color name="material_animations_primary_dark">#0277BD</color>
+    <color name="material_animations_blank">#424242</color>
+    <color name="material_animations_accent">#3F51B5</color>
+
+    <color name="text_light">@android:color/white</color>
+    <color name="text_dark">#616161</color>
+
+    <color name="sample_red">#ff4444</color>
+    <color name="sample_blue">#33b5e5</color>
+    <color name="sample_green">#669900</color>
+    <color name="sample_yellow">#ff8800</color>
+
+
+    <!-- theme colors -->
+    <color name="theme_blue_background">#84ffff</color>
+    <color name="theme_blue_primary">#4FC3F7</color>
+    <color name="theme_blue_accent">#ff193a</color>
+    <color name="theme_blue_text">@color/text_dark</color>
+    <color name="theme_blue_text_inverse">@android:color/black</color>
+    <color name="theme_blue_primary_dark">#039BE5</color>
+
+    <color name="theme_green_background">#b9f6ca</color>
+    <color name="theme_green_primary">#669900</color>
+    <color name="theme_green_accent">#e919ff</color>
+    <color name="theme_green_text">@color/text_dark</color>
+    <color name="theme_green_primary_dark">#558B2F</color>
+
+    <color name="theme_purple_background">#b388ff</color>
+    <color name="theme_purple_primary">#7e57c2</color>
+    <color name="theme_purple_accent">#ff9419</color>
+    <color name="theme_purple_text">@color/text_light</color>
+    <color name="theme_purple_primary_dark">#6c4aa6</color>
+
+    <color name="theme_red_background">#ff8a80</color>
+    <color name="theme_red_primary">#ff5252</color>
+    <color name="theme_red_accent">#fffc19</color>
+    <color name="theme_red_text">@color/text_light</color>
+    <color name="theme_red_primary_dark">#e64a4a</color>
+
+    <color name="theme_yellow_background">#ffff8d</color>
+    <color name="theme_yellow_primary">#ff8800</color>
+    <color name="theme_yellow_accent">#19dcff</color>
+    <color name="theme_yellow_text">@color/text_dark</color>
+    <color name="theme_yellow_primary_dark">#EF6C00</color>
+
+    <color name="green">#00e676</color>
+    <color name="red">#ff5252</color>
+    <color name="light_grey">#E0E0E0</color>
+
+
+    <color name="holo_blue_light">#ff33b5e5</color>
+    <color name="white">#ffffff</color>
+    <color name="feed_bg">#d3d6db</color>
+    <color name="feed_item_bg">#ffffff</color>
+    <color name="feed_item_border">#c2c3c8</color>
+    <color name="link">#0a80d1</color>
+    <color name="timestamp">#a0a3a7</color>
+    <color name="action_bar_color">#00b2a9</color>
+    <color name="fb_color">#3b5998</color>
+    <color name="youtube_color">#c4302b</color>
+    <color name="instagram_color">#3f729b</color>
+    <color name="twitter_color">#4099FF</color>
+    <color name="background_window">#FFE5E5E5</color>
+    <color name="app_blue">#3399ff</color>
+    <color name="app_grey">#999999</color>
+    <color name="app_dark_grey">#54575a</color>
+    <color name="app_light_grey">#cbcccd</color>
+    <color name="app_light_grey_new">#E0E0E0</color>
+    <color name="app_purple">#A349A3</color>
+    <color name="app_sub_bg">#f1f1f1</color>
+    <color name="app_detail_achiever">#6DD0F7</color>
+    <color name="app_detail_pathfinder">#FDC689</color>
+    <color name="app_detail_coach">#898989</color>
+    <color name="app_detail_innovator">#A186BE</color>
+    <color name="app_dark_green">#32CD32</color>
+
+    <color name="app_dark_green2">#067006</color>
+
+    <color name="app_background_message_vip_unread">#F0F0AA</color>
+    <color name="app_background_message_vip_green">#68A88E</color>
+
+    <color name="app_green">#6DB140</color>
+    <color name="app_golden">#FDAA45</color>
+    <color name="app_grey_subscribe">#EEEEEE</color>
+    <color name="app_red_notification">#FF0400</color>
+    <color name="app_free_communication_bg">#7BBCF4</color>
+
+    <color name="pressed_color">#4d90fe</color>
+    <color name="default_color">#ffffff</color>
+    <color name="transparent">#00000000</color>
+    <color name="transparent_grey">#50676767</color>
+
+
+
+
+
+    <color name="bg_red">#ef505a</color>
+    <color name="bg_blue_normal">#ff33b5e5</color>
+    <color name="bg_f_dark_orange">#e9972d</color>
+    <color name="bg_app_dark_green">#32CD32</color>
+    <color name="bg_colorGrey">#787878</color>
+
+
+</resources>

@@ -1,0 +1,440 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+<!--    <string-array name="dept">-->
+<!--        <item>Forward to HT</item>-->
+<!--        <item>Forward to UGM</item>-->
+<!--        <item>Forward to SSM</item>-->
+<!--    </string-array>-->
+
+<!--    &lt;!&ndash; Status &ndash;&gt;-->
+<!--    <string-array name="status">-->
+<!--        <item>OPEN</item>-->
+<!--        <item>ASSIGN</item>-->
+<!--        <item>HEADING</item>-->
+<!--        <item>HOLD</item>-->
+<!--        <item>IN-PROCESS</item>-->
+<!--        <item>FORWARD</item>-->
+<!--        <item>COMPLETE</item>-->
+<!--    </string-array>-->
+
+<!--    <string-array name="status_code">-->
+<!--        <item>OPEN</item>-->
+<!--        <item>ASSG</item>-->
+<!--        <item>HEAD</item>-->
+<!--        <item>HOLD</item>-->
+<!--        <item>INPG</item>-->
+<!--        <item>FORW</item>-->
+<!--        <item>COMP</item>-->
+<!--    </string-array>-->
+
+
+<!--    &lt;!&ndash; Cause &ndash;&gt;-->
+<!--    <string-array name="cause">-->
+<!--        <item>-Please Select-</item>-->
+<!--        <item>Bimetallic Lugs Loosened</item>-->
+<!--        <item>Cable Not Found</item>-->
+<!--        <item>Digging</item>-->
+<!--        <item>Hit by Vehicle</item>-->
+<!--        <item>Jumper loosened</item>-->
+<!--        <item>Others</item>-->
+<!--        <item>Overloading</item>-->
+<!--        <item>Pressure</item>-->
+<!--        <item>Stretching</item>-->
+<!--        <item>Winds</item>-->
+<!--    </string-array>-->
+
+<!--    <string-array name="cause_cat">-->
+<!--        <item>-Please Select-</item>-->
+<!--        <item>DN-LTCO</item>-->
+<!--        <item>DN-LTCO</item>-->
+<!--        <item>DN-LTCO</item>-->
+<!--        <item>DN-LTCO</item>-->
+<!--        <item>DN-LTCO</item>-->
+<!--        <item>DN-LTCO</item>-->
+<!--        <item>DN-LTCO</item>-->
+<!--        <item>DN-LTCO</item>-->
+<!--        <item>DN-LTCO</item>-->
+<!--        <item>DN-LTCO</item>-->
+<!--    </string-array>-->
+
+<!--    <string-array name="cause_subcat">-->
+<!--        <item>-Please Select-</item>-->
+<!--        <item>C004</item>-->
+<!--        <item>C007</item>-->
+<!--        <item>C001</item>-->
+<!--        <item>P002</item>-->
+<!--        <item>P004</item>-->
+<!--        <item>C006</item>-->
+<!--        <item>C002</item>-->
+<!--        <item>C005</item>-->
+<!--        <item>P001</item>-->
+<!--        <item>C003</item>-->
+<!--    </string-array>-->
+
+<!--    &lt;!&ndash; Faults &ndash;&gt;-->
+
+<!--    <string-array name="fault">-->
+<!--        <item>-Please Select-</item>-->
+<!--        <item>Dead End Broken</item>-->
+<!--        <item>ABC Cable Lead/ Cable Burn Out</item>-->
+<!--        <item>ABCCable Falled/Broken/Short</item>-->
+<!--        <item>IPC Connectors Burn Out</item>-->
+<!--        <item>ABC Cable Lugs Burn Out</item>-->
+<!--        <item>Breaker Faulty</item>-->
+<!--        <item>Breaker Trip/Found Off</item>-->
+<!--        <item>Breaker Fault(Fixed)</item>-->
+<!--        <item>LT Cable Fault</item>-->
+<!--        <item>HT Linking Cable Fault</item>-->
+<!--        <item>HT Main Cable Fault</item>-->
+<!--        <item>Service Cable Fault</item>-->
+<!--        <item>Pole Fallen</item>-->
+<!--        <item>PMT Structure Tilted</item>-->
+<!--        <item>Bracket Damaged</item>-->
+<!--        <item>Stay/Strut Unit Broken/Hopeless</item>-->
+<!--        <item>Insulator Damaged</item>-->
+<!--        <item>Current In Pole</item>-->
+<!--        <item>HT Pole Rusted/Damaged/Tited</item>-->
+<!--        <item>LT Pole Rusted/Damaged/Tited</item>-->
+<!--        <item>LT Fuse Blown Off/Burn Out</item>-->
+<!--        <item>HT Link Blown Off</item>-->
+<!--        <item>Do Cut Out/Cartidge Faulty</item>-->
+<!--        <item>HT Earthing Missing/ Broken</item>-->
+<!--        <item>LT Earthing Missing/ Broken</item>-->
+<!--        <item>F.I.R Case - Lead Stolen</item>-->
+<!--        <item>F.I.R Case - Meter Stolen</item>-->
+<!--        <item>F.I.R Case - Service Cable/ Wire Stolen</item>-->
+<!--        <item>F.I.R Case - HT Switch accessories Stolen</item>-->
+<!--        <item>F.I.R Case - LT accessories Stolen</item>-->
+<!--        <item>Fire On Ht Assets</item>-->
+<!--        <item>Fire On Lt Assets</item>-->
+<!--        <item>K/S Operating Issue/ Malfunction</item>-->
+<!--        <item>LBS Operating Issue/ Malfunction</item>-->
+<!--        <item>HT Leads Fault</item>-->
+<!--        <item>LT Leads Fault</item>-->
+<!--        <item>LT Lugs Burn Out</item>-->
+<!--        <item>HT Lugs Burn Out</item>-->
+<!--        <item>Phase Reverse</item>-->
+<!--        <item>KE Supply Found OK</item>-->
+<!--        <item>Tree Pruning</item>-->
+<!--        <item>Bird/Animal Electrocution</item>-->
+<!--        <item>Cousumer Side Fault</item>-->
+<!--        <item>ATB Fault</item>-->
+<!--        <item>Meter Terminical Loose</item>-->
+<!--        <item>Meter Burnt Out</item>-->
+<!--        <item>Meters Bus-Bar Damage</item>-->
+<!--        <item>HT Main Jumper Fault</item>-->
+<!--        <item>LTMain Jumper Fault</item>-->
+<!--        <item>Wire Entangle/Short</item>-->
+<!--        <item>HT Wire Borken</item>-->
+<!--        <item>Earth / Guard Wire Broken</item>-->
+<!--        <item>LT/Service Wire Broken</item>-->
+<!--        <item>PMT Fallen</item>-->
+<!--        <item>Oil Leakage From Transformer</item>-->
+<!--        <item>Transformer Faulty</item>-->
+<!--        <item>Transformer Faults (BBC, TAP Chnager, Etc)</item>-->
+<!--        <item>Voltage Issue</item>-->
+<!--        <item>LT C.T Burn OUT</item>-->
+<!--        <item>DB Malfuctioned</item>-->
+<!--        <item>LT Pillar Box Fault</item>-->
+<!--        <item>Area DC due to dues/ Line Disconnected</item>-->
+<!--        <item>Planned LT Shutdown</item>-->
+<!--        <item>Planned HT Shutdown</item>-->
+<!--        <item>Forced HT Shutdown</item>-->
+<!--        <item>Forced LT Shutdown</item>-->
+<!--        <item>HT Switch - Bus-Bar Carbonized</item>-->
+<!--        <item>CT Faulty</item>-->
+<!--        <item>PT Faulty</item>-->
+<!--        <item>HT Switch / Isolator Faulty</item>-->
+<!--        <item>HT Switch/ Isplator Faulty</item>-->
+<!--        <item>RMU Switch Temporary Fault</item>-->
+<!--        <item>RMU Switch Faulty</item>-->
+<!--        <item>Load Shedding</item>-->
+<!--        <item>Loop Switch Found Tripped</item>-->
+<!--        <item>EHT Tripping</item>-->
+<!--        <item>Feeder/ Incoming Tripping</item>-->
+<!--        <item>Shutdown/ Fault at Grid</item>-->
+<!--    </string-array>-->
+
+<!--    &lt;!&ndash; Added description in brackets by Zohaib Humayun    Date: 10-11-2020    H2H No. 191893 &ndash;&gt;-->
+<!--    <string-array name="fault_cat">-->
+<!--        <item>-Please Select-</item>-->
+<!--        <item>ABC-FLTS (ABC Fault)</item>-->
+<!--        <item>ABC-FLTS (ABC Fault)</item>-->
+<!--        <item>ABC-FLTS (ABC Fault)</item>-->
+<!--        <item>ABC-FLTS (ABC Fault)</item>-->
+<!--        <item>ABC-FLTS (ABC Fault)</item>-->
+<!--        <item>BREAKER (BREAKER)</item>-->
+<!--        <item>BREAKER (BREAKER)</item>-->
+<!--        <item>BREAKER (BREAKER)</item>-->
+<!--        <item>CA-FLT (CABLE FAULT)</item>-->
+<!--        <item>CA-FLT (CABLE FAULT)</item>-->
+<!--        <item>CA-FLT (CABLE FAULT)</item>-->
+<!--        <item>CA-FLT (CABLE FAULT)</item>-->
+<!--        <item>DN-POL (POLE / STRUCTURE DAMAGED)</item>-->
+<!--        <item>DN-POL (POLE / STRUCTURE DAMAGED)</item>-->
+<!--        <item>DN-POL (POLE / STRUCTURE DAMAGED)</item>-->
+<!--        <item>DN-POL (POLE / STRUCTURE DAMAGED)</item>-->
+<!--        <item>DN-POL (POLE / STRUCTURE DAMAGED)</item>-->
+<!--        <item>DN-POL (POLE / STRUCTURE DAMAGED)</item>-->
+<!--        <item>DN-POL (POLE / STRUCTURE DAMAGED)</item>-->
+<!--        <item>DN-POL (POLE / STRUCTURE DAMAGED)</item>-->
+<!--        <item>DO-FUSE (DO / HRC FUSE FAULT)</item>-->
+<!--        <item>DO-FUSE (DO / HRC FUSE FAULT)</item>-->
+<!--        <item>DO-FUSE (DO / HRC FUSE FAULT)</item>-->
+<!--        <item>ERTH-FLT (EARTHING FAULT)</item>-->
+<!--        <item>ERTH-FLT (EARTHING FAULT)</item>-->
+<!--        <item>FIR-FLT (F.I.R (Stolen Case))</item>-->
+<!--        <item>FIR-FLT (F.I.R (Stolen Case))</item>-->
+<!--        <item>FIR-FLT (F.I.R (Stolen Case))</item>-->
+<!--        <item>FIR-FLT (F.I.R (Stolen Case))</item>-->
+<!--        <item>FIR-FLT (F.I.R (Stolen Case))</item>-->
+<!--        <item>FIRE-FLT (FIRE CASE)</item>-->
+<!--        <item>FIRE-FLT (FIRE CASE)</item>-->
+<!--        <item>LBS-KS (LBS / KNIFE SWITCH FAULT)</item>-->
+<!--        <item>LBS-KS (LBS / KNIFE SWITCH FAULT)</item>-->
+<!--        <item>LEADS (LEAD-FLT)</item>-->
+<!--        <item>LEADS (LEAD-FLT)</item>-->
+<!--        <item>LUG-FLT (LUGS FAULT)</item>-->
+<!--        <item>LUG-FLT (LUGS FAULT)</item>-->
+<!--        <item>MIS-FLTS (MISCELLANIOUS)</item>-->
+<!--        <item>MIS-FLTS (MISCELLANIOUS)</item>-->
+<!--        <item>MIS-FLTS (MISCELLANIOUS)</item>-->
+<!--        <item>MIS-FLTS (MISCELLANIOUS)</item>-->
+<!--        <item>MIS-FLTS (MISCELLANIOUS)</item>-->
+<!--        <item>MIS-FLTS (MISCELLANIOUS)</item>-->
+<!--        <item>MTR-FLT (METER FAULTS)</item>-->
+<!--        <item>MTR-FLT (METER FAULTS)</item>-->
+<!--        <item>MTR-FLT (METER FAULTS)</item>-->
+<!--        <item>OH-JMPR (OH-JUMPER)</item>-->
+<!--        <item>OH-JMPR (OH-JUMPER)</item>-->
+<!--        <item>OH-WB (Wire broken)</item>-->
+<!--        <item>OH-WB (Wire broken)</item>-->
+<!--        <item>OH-WB (Wire broken)</item>-->
+<!--        <item>OH-WB (Wire broken)</item>-->
+<!--        <item>PMT-FLTS (PMT / SST FAULTS)</item>-->
+<!--        <item>PMT-FLTS (PMT / SST FAULTS)</item>-->
+<!--        <item>PMT-FLTS (PMT / SST FAULTS)</item>-->
+<!--        <item>PMT-FLTS (PMT / SST FAULTS)</item>-->
+<!--        <item>PMT-FLTS (PMT / SST FAULTS)</item>-->
+<!--        <item>PNL-FLT (LT Panel fault)</item>-->
+<!--        <item>PNL-FLT (LT Panel fault)</item>-->
+<!--        <item>PNL-FLT (LT Panel fault)</item>-->
+<!--        <item>RC-DC (RC/DC)</item>-->
+<!--        <item>SHUTDOWN (Shutdown)</item>-->
+<!--        <item>SHUTDOWN (Shutdown)</item>-->
+<!--        <item>SHUTDOWN (Shutdown)</item>-->
+<!--        <item>SHUTDOWN (Shutdown)</item>-->
+<!--        <item>SW-RMU-F (HT Switch/RMU Faults)</item>-->
+<!--        <item>SW-RMU-F (HT Switch/RMU Faults)</item>-->
+<!--        <item>SW-RMU-F (HT Switch/RMU Faults)</item>-->
+<!--        <item>SW-RMU-F (HT Switch/RMU Faults)</item>-->
+<!--        <item>SW-RMU-F (HT Switch/RMU Faults)</item>-->
+<!--        <item>SW-RMU-F (HT Switch/RMU Faults)</item>-->
+<!--        <item>SW-RMU-F (HT Switch/RMU Faults)</item>-->
+<!--        <item>TRIPPING (Tripping /Load Drop)</item>-->
+<!--        <item>TRIPPING (Tripping /Load Drop)</item>-->
+<!--        <item>TRIPPING (Tripping /Load Drop)</item>-->
+<!--        <item>TRIPPING (Tripping /Load Drop)</item>-->
+<!--        <item>TRIPPING (Tripping /Load Drop)</item>-->
+<!--    </string-array>-->
+
+<!--    <string-array name="fault_cat_unique">-->
+<!--        <item>-Please Select-</item>-->
+<!--        <item>ABC-FLTS (ABC Fault)</item>-->
+<!--        <item>BREAKER (BREAKER)</item>-->
+<!--        <item>CA-FLT (CABLE FAULT)</item>-->
+<!--        <item>DN-POL (POLE / STRUCTURE DAMAGED)</item>-->
+<!--        <item>DO-FUSE (DO / HRC FUSE FAULT)</item>-->
+<!--        <item>ERTH-FLT (EARTHING FAULT)</item>-->
+<!--        <item>FIR-FLT (F.I.R (Stolen Case))</item>-->
+<!--        <item>FIRE-FLT (FIRE CASE)</item>-->
+<!--        <item>LBS-KS (LBS / KNIFE SWITCH FAULT)</item>-->
+<!--        <item>LEADS (LEAD-FLT)</item>-->
+<!--        <item>LUG-FLT (LUGS FAULT)</item>-->
+<!--        <item>MIS-FLTS (MISCELLANIOUS)</item>-->
+<!--        <item>MTR-FLT (METER FAULTS)</item>-->
+<!--        <item>OH-JMPR (OH-JUMPER)</item>-->
+<!--        <item>OH-WB (Wire broken)</item>-->
+<!--        <item>PMT-FLTS (PMT / SST FAULTS)</item>-->
+<!--        <item>PNL-FLT (LT Panel fault)</item>-->
+<!--        <item>RC-DC (RC/DC)</item>-->
+<!--        <item>SHUTDOWN (Shutdown)</item>-->
+<!--        <item>SW-RMU-F (HT Switch/RMU Faults)</item>-->
+<!--        <item>TRIPPING (Tripping /Load Drop)</item>-->
+<!--    </string-array>-->
+
+<!--    &lt;!&ndash; Additions completed &ndash;&gt;-->
+<!--    <string-array name="fault_subcat">-->
+<!--        <item>-Please Select-</item>-->
+<!--        <item>A003</item>-->
+<!--        <item>A007</item>-->
+<!--        <item>A008</item>-->
+<!--        <item>A009</item>-->
+<!--        <item>A010</item>-->
+<!--        <item>B001</item>-->
+<!--        <item>B002</item>-->
+<!--        <item>B003</item>-->
+<!--        <item>001</item>-->
+<!--        <item>003</item>-->
+<!--        <item>004</item>-->
+<!--        <item>005</item>-->
+<!--        <item>PL01</item>-->
+<!--        <item>PL02</item>-->
+<!--        <item>PL03</item>-->
+<!--        <item>PL04</item>-->
+<!--        <item>PL05</item>-->
+<!--        <item>PL06</item>-->
+<!--        <item>PL07</item>-->
+<!--        <item>PL08</item>-->
+<!--        <item>F001</item>-->
+<!--        <item>F002</item>-->
+<!--        <item>F003</item>-->
+<!--        <item>E001</item>-->
+<!--        <item>E002</item>-->
+<!--        <item>FR01</item>-->
+<!--        <item>FR02</item>-->
+<!--        <item>FR03</item>-->
+<!--        <item>FR04</item>-->
+<!--        <item>FR05</item>-->
+<!--        <item>FI01</item>-->
+<!--        <item>FI02</item>-->
+<!--        <item>K001</item>-->
+<!--        <item>K002</item>-->
+<!--        <item>LE01</item>-->
+<!--        <item>LE02</item>-->
+<!--        <item>LU01</item>-->
+<!--        <item>LU02</item>-->
+<!--        <item>M004</item>-->
+<!--        <item>M011</item>-->
+<!--        <item>M014</item>-->
+<!--        <item>M019</item>-->
+<!--        <item>M020</item>-->
+<!--        <item>M021</item>-->
+<!--        <item>MT01</item>-->
+<!--        <item>MT02</item>-->
+<!--        <item>MT03</item>-->
+<!--        <item>JP01</item>-->
+<!--        <item>JP02</item>-->
+<!--        <item>J003</item>-->
+<!--        <item>J006</item>-->
+<!--        <item>J007</item>-->
+<!--        <item>J008</item>-->
+<!--        <item>PO16</item>-->
+<!--        <item>PO17</item>-->
+<!--        <item>PO18</item>-->
+<!--        <item>PO19</item>-->
+<!--        <item>PO20</item>-->
+<!--        <item>PN01</item>-->
+<!--        <item>PN02</item>-->
+<!--        <item>PN03</item>-->
+<!--        <item>RD01</item>-->
+<!--        <item>SD01</item>-->
+<!--        <item>SD02</item>-->
+<!--        <item>SD03</item>-->
+<!--        <item>SD04</item>-->
+<!--        <item>SW01</item>-->
+<!--        <item>SW02</item>-->
+<!--        <item>SW03</item>-->
+<!--        <item>SW04</item>-->
+<!--        <item>SW05</item>-->
+<!--        <item>SW06</item>-->
+<!--        <item>SW07</item>-->
+<!--        <item>T001</item>-->
+<!--        <item>T002</item>-->
+<!--        <item>T003</item>-->
+<!--        <item>T004</item>-->
+<!--        <item>T005</item>-->
+<!--    </string-array>-->
+
+<!--    &lt;!&ndash; Forward Arrays &ndash;&gt;-->
+
+<!--    <string-array name="forward_grpcode">-->
+<!--        <item>-Please Select-</item>-->
+<!--        <item>DN-LTFO</item>-->
+<!--        <item>DN-LTFO</item>-->
+<!--        <item>DN-LTFO</item>-->
+<!--        <item>DN-LTFO</item>-->
+<!--    </string-array>-->
+
+<!--    <string-array name="forward_reasons">-->
+<!--        <item>-Please Select-</item>-->
+<!--        <item>pertains to Commercial</item>-->
+<!--        <item>pertains to PM</item>-->
+<!--        <item>Pertains to SSM</item>-->
+<!--        <item>pertains to UGM</item>-->
+
+<!--    </string-array>-->
+
+<!--    <string-array name="forward_reason_code">-->
+<!--        <item>-Please Select-</item>-->
+<!--        <item>F004</item>-->
+<!--        <item>F003</item>-->
+<!--        <item>F001</item>-->
+<!--        <item>F002</item>-->
+<!--    </string-array>-->
+
+
+<!--    &lt;!&ndash; Hold Arrays &ndash;&gt;-->
+<!--    <string-array name="hold_grpcode">-->
+<!--        <item>-Please Select-</item>-->
+<!--        <item>DN-LTHO</item>-->
+<!--        <item>DN-LTHO</item>-->
+<!--        <item>DN-LTHO</item>-->
+<!--        <item>DN-LTHO</item>-->
+<!--    </string-array>-->
+
+<!--    <string-array name="hold_reason">-->
+<!--        <item>-Please Select-</item>-->
+<!--        <item>MTL issue</item>-->
+<!--        <item>Prayer time</item>-->
+<!--        <item>Road block/traffic Jam</item>-->
+<!--        <item>Testing team required</item>-->
+<!--    </string-array>-->
+
+<!--    <string-array name="hold_reason_code">-->
+<!--        <item>-Please Select-</item>-->
+<!--        <item>C003</item>-->
+<!--        <item>C001</item>-->
+<!--        <item>C004</item>-->
+<!--        <item>C002</item>-->
+<!--    </string-array>-->
+
+
+<!--    &lt;!&ndash; Reject Arrays &ndash;&gt;-->
+<!--    <string-array name="reject_grpcode">-->
+<!--        <item>-Please Select-</item>-->
+<!--        <item>DN-LTRE</item>-->
+<!--        <item>DN-LTRE</item>-->
+<!--        <item>DN-LTRE</item>-->
+<!--        <item>DN-LTRE</item>-->
+<!--        <item>DN-LTRE</item>-->
+<!--        <item>DN-LTRE</item>-->
+<!--        <item>DN-LTRE</item>-->
+<!--    </string-array>-->
+
+
+<!--    <string-array name="reject_reasons">-->
+<!--        <item>-Please Select-</item>-->
+<!--        <item>Law and order situation</item>-->
+<!--        <item>MTL Issue</item>-->
+<!--        <item>Others</item>-->
+<!--        <item>Out of Area</item>-->
+<!--        <item>Over Loaded</item>-->
+<!--        <item>Pertains to other IBC</item>-->
+<!--        <item>Shift Sign Off</item>-->
+<!--    </string-array>-->
+
+<!--    <string-array name="reject_reason_code">-->
+<!--        <item>-Please Select-</item>-->
+<!--        <item>R006</item>-->
+<!--        <item>R001</item>-->
+<!--        <item>R007</item>-->
+<!--        <item>R004</item>-->
+<!--        <item>R002</item>-->
+<!--        <item>R005</item>-->
+<!--        <item>R003</item>-->
+<!--    </string-array>-->
+
+</resources>

@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    tools:context=".MaterialAddingActivity">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <include
+            android:id="@+id/toolbar"
+            layout="@layout/toolbar_main" />
+
+        <RelativeLayout
+            android:id="@+id/rel"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/toolbar"
+            android:background="@color/colorKeBlack"
+            android:paddingLeft="@dimen/_5sdp"
+            android:paddingRight="@dimen/_5sdp">
+
+            <TextView
+                android:id="@+id/material_addition"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:text="Material Consumption "
+                android:textColor="#fff"
+                android:textStyle="bold"
+                android:textSize="@dimen/_15sdp"/>
+
+            <Button
+                android:id="@+id/addMaterial"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:text="Add"
+                android:textColor="#000"/>
+
+            <Button
+                android:id="@+id/skipMaterial"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="89dp"
+                android:text="Not Required"
+                android:textColor="#000" />
+
+        </RelativeLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:weightSum="2"
+            android:layout_above="@id/bottomView"
+            android:layout_below="@+id/rel"
+            >
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/material_list"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_above="@+id/bottomView"
+                android:layout_below="@+id/topView"
+                android:layout_weight="1"/>
+            <ScrollView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="@dimen/_5sdp"
+                    android:orientation="vertical"
+                    android:id="@+id/topView"
+                    android:background="@color/window_background"
+                    android:paddingBottom="@dimen/_10sdp">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="25dp"
+                        android:layout_marginRight="20dp"
+                        android:text="Category"
+                        android:textSize="@dimen/_14ssp"
+                        android:textStyle="bold" />
+
+                    <Spinner
+                        android:id="@+id/spin_category"
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/_30sdp"
+                        android:layout_marginLeft="20dp"
+                        android:layout_marginRight="20dp"
+                        android:background="@drawable/drop_back"
+                        android:gravity="center"
+                        android:paddingRight="@dimen/_15sdp"
+                        android:spinnerMode="dropdown" />
+
+                    <TextView
+                        android:id="@+id/tvFault"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="25dp"
+                        android:layout_marginRight="20dp"
+                        android:layout_marginTop="@dimen/_5sdp"
+                        android:text="SubCategory"
+                        android:textSize="@dimen/_14ssp"
+                        android:textStyle="bold" />
+
+                    <Spinner
+                        android:id="@+id/spin_dialog1"
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/_30sdp"
+                        android:layout_marginLeft="20dp"
+                        android:layout_marginRight="20dp"
+                        android:background="@drawable/drop_back"
+                        android:gravity="center"
+                        android:paddingRight="@dimen/_15sdp"
+                        android:spinnerMode="dropdown" />
+
+
+                    <TextView
+                        android:id="@+id/tvCause"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="25dp"
+                        android:layout_marginRight="20dp"
+                        android:layout_marginTop="@dimen/_5sdp"
+                        android:text="Description"
+                        android:textSize="@dimen/_14ssp"
+                        android:textStyle="bold"
+                        android:visibility="visible"/>
+
+                    <Spinner
+                        android:id="@+id/spin_dialog2"
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/_30sdp"
+                        android:layout_marginLeft="20dp"
+                        android:layout_marginRight="20dp"
+                        android:background="@drawable/drop_back"
+                        android:gravity="center"
+                        android:paddingRight="@dimen/_15sdp"
+                        android:spinnerMode="dropdown"
+                        android:visibility="visible"/>
+
+                </LinearLayout>
+
+            </ScrollView>
+
+
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:id="@+id/bottomView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="@dimen/_5sdp"
+            android:orientation="vertical">
+            <RelativeLayout
+                android:id="@+id/submit_materials"
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/_40sdp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginRight="@dimen/_5sdp"
+                android:background="@drawable/rounded_corner_blue"
+                android:gravity="center">
+
+                <androidx.appcompat.widget.AppCompatButton
+                    android:id="@+id/btn_submit_material"
+                    android:layout_width="160dp"
+                    android:layout_height="match_parent"
+                    android:background="?attr/selectableItemBackground"
+                    android:text="Next" />
+
+            </RelativeLayout>
+        </LinearLayout>
+
+    </RelativeLayout>
+</ScrollView>

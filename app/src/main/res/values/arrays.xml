@@ -1,0 +1,707 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+    <string-array name="dept">
+        <item>Forward to HT</item>
+        <item>Forward to UGM</item>
+        <item>Forward to SSM</item>
+    </string-array>
+
+    <!-- Status -->
+    <string-array name="status">
+        <item>OPEN</item>
+        <item>ASSIGN</item>
+        <item>HEADING</item>
+        <item>HOLD</item>
+        <item>IN-PROCESS</item>
+        <item>FORWARD</item>
+        <item>COMPLETE</item>
+    </string-array>
+
+    <string-array name="status_code">
+        <item>OPEN</item>
+        <item>ASSG</item>
+        <item>HEAD</item>
+        <item>HOLD</item>
+        <item>INPG</item>
+        <item>FORW</item>
+        <item>COMP</item>
+    </string-array>
+
+
+    <!-- Cause -->
+    <string-array name="cause">
+        <item>-Please Select-</item>
+        <item>Bimetallic Lugs Loosened</item>
+        <item>Cable Not Found</item>
+        <item>Digging</item>
+        <item>Hit by Vehicle</item>
+        <item>Jumper loosened</item>
+        <item>Others</item>
+        <item>Overloading</item>
+        <item>Pressure</item>
+        <item>Stretching</item>
+        <item>Winds</item>
+    </string-array>
+
+    <string-array name="cause_cat">
+        <item>-Please Select-</item>
+        <item>DN-LTCO</item>
+        <item>DN-LTCO</item>
+        <item>DN-LTCO</item>
+        <item>DN-LTCO</item>
+        <item>DN-LTCO</item>
+        <item>DN-LTCO</item>
+        <item>DN-LTCO</item>
+        <item>DN-LTCO</item>
+        <item>DN-LTCO</item>
+        <item>DN-LTCO</item>
+    </string-array>
+
+    <string-array name="cause_subcat">
+        <item>-Please Select-</item>
+        <item>C004</item>
+        <item>C007</item>
+        <item>C001</item>
+        <item>P002</item>
+        <item>P004</item>
+        <item>C006</item>
+        <item>C002</item>
+        <item>C005</item>
+        <item>P001</item>
+        <item>C003</item>
+    </string-array>
+
+    <!-- Faults -->
+
+    <string-array name="fault">
+        <item>-Please Select-</item>
+        <item>Dead End Broken</item>
+        <item>ABC Cable Lead/Cable Burnt Out</item>
+        <item>ABC Cable Fallen/Broken/short</item>
+        <item> IPC Connectors Burnt Out</item>
+        <item>ABC Cable Lugs Burnt Out</item>
+        <item>IPC Connectors Loose / Tightened</item>
+        <item>Breaker Faulty</item>
+        <item>Breaker Trip/Found Off</item>
+        <item>Breaker Fault(Fixed)</item>
+        <item>LT Cable Fault</item>
+        <item>HT Linking Cable Fault</item>
+        <item>HT Main Cable Fault</item>
+        <item>Service Cable Fault</item>
+        <item>Current in KE Asset (LT)</item>
+        <item>Current in KE Asset (HT)</item>
+        <item>Current in Consumer Side Asset</item>
+        <item>Pole Fallen</item>
+        <item>PMT Structure Tilted</item>
+        <item>Bracket Damaged</item>
+        <item>Stay/Strut Unit Broken/Hopeless</item>
+        <item>Insulator Damaged</item>
+        <item>Current in Pole</item>
+        <item>HT Pole Rusted/Damaged/Tilted</item>
+        <item>LT Pole Rusted/Damaged/Tilted</item>
+        <item>LT Fuse Blown Off/Burnt Out</item>
+        <item>HT Link Blown Off</item>
+        <item>DO Cut Out/Cartridge Faulty</item>
+        <item>HRC Fuse Not Available – Bypass</item>
+        <item>HRC Fuse Base Burnt out</item>
+        <item>HRC Fuse Loose / Tightened</item>
+        <item>HT Earthing Missing /Broken</item>
+        <item>LT Eathing Missing / Broken</item>
+        <item>Fire on HT Assets</item>
+        <item>Fire on LT Assets</item>
+        <item>Fire on Consumer Side Asset</item>
+        <item>Sparking in KE Asset</item>
+        <item>Sparking in Consumer Side Asset</item>
+        <item>F.I.R Case - Lead Stolen</item>
+        <item>F.I.R Case - Meter Stolen</item>
+        <item>F.I.R Case - Service Cable/wire stolen</item>
+        <item>F.I.R Case - HT Switch accessories Stolen</item>
+        <item>F.I.R Case - LT accessories stolen</item>
+        <item>K/S Operating Issue/Malfunctioned</item>
+        <item>LBS Operating Issue/Malfunctioned</item>
+        <item>HT Leads Fault</item>
+        <item>LT Leads Fault</item>
+        <item>LT Lugs Burnt Out</item>
+        <item>HT Lug Burnt Out</item>
+        <item>Phase Reverse</item>
+        <item>KE Supply Found OK</item>
+        <item>Tree Pruning</item>
+        <item>Bird/Animal Electrocution</item>
+        <item>Consumer Side fault</item>
+        <item>ATB Fault</item>
+        <item>Hook Connection (Fallen/Broken)</item>
+        <item>Water-Logging on KE Assets</item>
+        <item>Water-Logging on Consumer Side Assets</item>
+        <item>Meter Terminal Loose</item>
+        <item>Meter Burnt Out</item>
+        <item>Meters Bus-Bar Damage</item>
+        <item>FMR Case (Line Direct)</item>
+        <item>FMR Case (Line not Direct)</item>
+        <item>HT Main Jumper Fault</item>
+        <item>LT Main Jumper Fault</item>
+        <item>Main Jumper Loose / Tightened</item>
+        <item>Neutral Jumper Loose / Tightened</item>
+        <item>Wire Entangle / Short</item>
+        <item>HT Wire Broken</item>
+        <item>Earth / Guard Wire Broken</item>
+        <item>LT/service Wire Broken</item>
+        <item>Civic Agencies Cable/Wire Broken</item>
+        <item>PMT Fallen</item>
+        <item>Oil Leakage from Transformer</item>
+        <item>Transformer Faulty</item>
+        <item>Transformer Faults(BBC,Tap Changer, etc)</item>
+        <item>Voltage Issue</item>
+        <item>LT C.T. Burnt Out</item>
+        <item>DB malfunctioned</item>
+        <item>LT Pillar Box fault</item>
+        <item>Area DC due to dues/Line disconnected</item>
+        <item>Planned LT Shutdown</item>
+        <item>Planned HT Shutdown</item>
+        <item>Forced HT Shutdown</item>
+        <item>Forced LT Shutdown</item>
+        <item>HT Switch - Bus-Bar Carbonized</item>
+        <item>CT Faulty</item>
+        <item>PT Faulty</item>
+        <item>HT Switch/Isolator Fault</item>
+        <item>HT Switch/isolator Faulty</item>
+        <item>RMU Switch Temporary Fault</item>
+        <item>RMU Switch Faulty</item>
+        <item>Load Shedding</item>
+        <item>Loop Switch Found Tripped</item>
+        <item>EHT Tripping</item>
+        <item>Feeder /Incoming Tripping</item>
+        <item>Shutdown / Fault at Grid</item>
+    </string-array>
+
+    <!-- Added description in brackets by Zohaib Humayun    Date: 10-11-2020    H2H No. 191893 -->
+    <string-array name="fault_cat">
+        <item>-Please Select-</item>
+        <item>ABC-FLTS (ABC Fault)</item>
+        <item>ABC-FLTS (ABC Fault)</item>
+        <item>ABC-FLTS (ABC Fault)</item>
+        <item>ABC-FLTS (ABC Fault)</item>
+        <item>ABC-FLTS (ABC Fault)</item>
+        <item>ABC-FLTS (ABC Fault)</item>
+        <item>BREAKER (BREAKER)</item>
+        <item>BREAKER (BREAKER)</item>
+        <item>BREAKER (BREAKER)</item>
+        <item>CA-FLT (CABLE FAULT)</item>
+        <item>CA-FLT (CABLE FAULT)</item>
+        <item>CA-FLT (CABLE FAULT)</item>
+        <item>CA-FLT (CABLE FAULT)</item>
+        <item>CRNT-FLT (CURRENT FAULT)</item>
+        <item>CRNT-FLT (CURRENT FAULT)</item>
+        <item>CRNT-FLT (CURRENT FAULT)</item>
+        <item>DN-POL (POLE / STRUCTURE DAMAGED)</item>
+        <item>DN-POL (POLE / STRUCTURE DAMAGED)</item>
+        <item>DN-POL (POLE / STRUCTURE DAMAGED)</item>
+        <item>DN-POL (POLE / STRUCTURE DAMAGED)</item>
+        <item>DN-POL (POLE / STRUCTURE DAMAGED)</item>
+        <item>DN-POL (POLE / STRUCTURE DAMAGED)</item>
+        <item>DN-POL (POLE / STRUCTURE DAMAGED)</item>
+        <item>DN-POL (POLE / STRUCTURE DAMAGED)</item>
+        <item>DO-FUSE (DO / HRC FUSE FAULT)</item>
+        <item>DO-FUSE (DO / HRC FUSE FAULT)</item>
+        <item>DO-FUSE (DO / HRC FUSE FAULT)</item>
+        <item>DO-FUSE (DO / HRC FUSE FAULT)</item>
+        <item>DO-FUSE (DO / HRC FUSE FAULT)</item>
+        <item>DO-FUSE (DO / HRC FUSE FAULT)</item>
+        <item>ERTH-FLT (EARTHING FAULT)</item>
+        <item>ERTH-FLT (EARTHING FAULT)</item>
+        <item>FIRE-FLT (FIRE CASE)</item>
+        <item>FIRE-FLT (FIRE CASE)</item>
+        <item>FIRE-FLT (FIRE CASE)</item>
+        <item>FIRE-FLT (FIRE CASE)</item>
+        <item>FIRE-FLT (FIRE CASE)</item>
+        <item>FIR-FLT (F.I.R (Stolen Case))</item>
+        <item>FIR-FLT (F.I.R (Stolen Case))</item>
+        <item>FIR-FLT (F.I.R (Stolen Case))</item>
+        <item>FIR-FLT (F.I.R (Stolen Case))</item>
+        <item>FIR-FLT (F.I.R (Stolen Case))</item>
+        <item>LBS-KS (LBS / KNIFE SWITCH FAULT)</item>
+        <item>LBS-KS (LBS / KNIFE SWITCH FAULT)</item>
+        <item>LEADS (LEAD-FLT)</item>
+        <item>LEADS (LEAD-FLT)</item>
+        <item>LUG-FLT (LUGS FAULT)</item>
+        <item>LUG-FLT (LUGS FAULT)</item>
+        <item>MIS-FLTS (MISCELLANIOUS)</item>
+        <item>MIS-FLTS (MISCELLANIOUS)</item>
+        <item>MIS-FLTS (MISCELLANIOUS)</item>
+        <item>MIS-FLTS (MISCELLANIOUS)</item>
+        <item>MIS-FLTS (MISCELLANIOUS)</item>
+        <item>MIS-FLTS (MISCELLANIOUS)</item>
+        <item>MIS-FLTS (MISCELLANIOUS)</item>
+        <item>MIS-FLTS (MISCELLANIOUS)</item>
+        <item>MIS-FLTS (MISCELLANIOUS)</item>
+        <item>MTR-FLT (METER FAULTS)</item>
+        <item>MTR-FLT (METER FAULTS)</item>
+        <item>MTR-FLT (METER FAULTS)</item>
+        <item>MTR-FLT (METER FAULTS)</item>
+        <item>MTR-FLT (METER FAULTS)</item>
+        <item>OH-JMPR (OH-JUMPER)</item>
+        <item>OH-JMPR (OH-JUMPER)</item>
+        <item>OH-JMPR (OH-JUMPER)</item>
+        <item>OH-JMPR (OH-JUMPER)</item>
+        <item>OH-WB (Wire broken)</item>
+        <item>OH-WB (Wire broken)</item>
+        <item>OH-WB (Wire broken)</item>
+        <item>OH-WB (Wire broken)</item>
+        <item>OH-WB (Wire broken)</item>
+        <item>PMT-FLTS (PMT / SST FAULTS)</item>
+        <item>PMT-FLTS (PMT / SST FAULTS)</item>
+        <item>PMT-FLTS (PMT / SST FAULTS)</item>
+        <item>PMT-FLTS (PMT / SST FAULTS)</item>
+        <item>PMT-FLTS (PMT / SST FAULTS)</item>
+        <item>PNL-FLT (LT Panel fault)</item>
+        <item>PNL-FLT (LT Panel fault)</item>
+        <item>PNL-FLT (LT Panel fault)</item>
+        <item>RC-DC (RC/DC)</item>
+        <item>SHUTDOWN (Shutdown)</item>
+        <item>SHUTDOWN (Shutdown)</item>
+        <item>SHUTDOWN (Shutdown)</item>
+        <item>SHUTDOWN (Shutdown)</item>
+        <item>SW-RMU-F (HT Switch/RMU Faults)</item>
+        <item>SW-RMU-F (HT Switch/RMU Faults)</item>
+        <item>SW-RMU-F (HT Switch/RMU Faults)</item>
+        <item>SW-RMU-F (HT Switch/RMU Faults)</item>
+        <item>SW-RMU-F (HT Switch/RMU Faults)</item>
+        <item>SW-RMU-F (HT Switch/RMU Faults)</item>
+        <item>SW-RMU-F (HT Switch/RMU Faults)</item>
+        <item>TRIPPING (Tripping /Load Drop)</item>
+        <item>TRIPPING (Tripping /Load Drop)</item>
+        <item>TRIPPING (Tripping /Load Drop)</item>
+        <item>TRIPPING (Tripping /Load Drop)</item>
+        <item>TRIPPING (Tripping /Load Drop)</item>
+    </string-array>
+
+    <string-array name="fault_cat_unique">
+        <item>-Please Select-</item>
+        <item>ABC-FLTS (ABC Fault)</item>
+        <item>BREAKER (BREAKER)</item>
+        <item>CA-FLT (CABLE FAULT)</item>
+        <item>CRNT-FLT (CURRENT FAULT)</item>
+        <item>DN-POL (POLE / STRUCTURE DAMAGED)</item>
+        <item>DO-FUSE (DO / HRC FUSE FAULT)</item>
+        <item>ERTH-FLT (EARTHING FAULT)</item>
+        <item>FIRE-FLT (FIRE CASE)</item>
+        <item>FIR-FLT (F.I.R (Stolen Case))</item>
+        <item>LBS-KS (LBS / KNIFE SWITCH FAULT)</item>
+        <item>LEADS (LEAD-FLT)</item>
+        <item>LUG-FLT (LUGS FAULT)</item>
+        <item>MIS-FLTS (MISCELLANIOUS)</item>
+        <item>MTR-FLT (METER FAULTS)</item>
+        <item>OH-JMPR (OH-JUMPER)</item>
+        <item>OH-WB (Wire broken)</item>
+        <item>PMT-FLTS (PMT / SST FAULTS)</item>
+        <item>PNL-FLT (LT Panel fault)</item>
+        <item>RC-DC (RC/DC)</item>
+        <item>SHUTDOWN (Shutdown)</item>
+        <item>SW-RMU-F (HT Switch/RMU Faults)</item>
+        <item>TRIPPING (Tripping /Load Drop)</item>
+    </string-array>
+
+    <!-- Additions completed -->
+    <string-array name="fault_subcat">
+        <item>-Please Select-</item>
+        <item>A003</item>
+        <item>A007</item>
+        <item>A008</item>
+        <item>A009</item>
+        <item>A010</item>
+        <item>A011</item>
+        <item>B001</item>
+        <item>B002</item>
+        <item>B003</item>
+        <item>001</item>
+        <item>003</item>
+        <item>004</item>
+        <item>005</item>
+        <item>CC01</item>
+        <item>CC02</item>
+        <item>CC03</item>
+        <item>P001</item>
+        <item>P002</item>
+        <item>P003</item>
+        <item>P004</item>
+        <item>P005</item>
+        <item>P006</item>
+        <item>P007</item>
+        <item>P008</item>
+        <item>F001</item>
+        <item>F002</item>
+        <item>F003</item>
+        <item>F004</item>
+        <item>F005</item>
+        <item>F006</item>
+        <item>E001</item>
+        <item>E002</item>
+        <item>FI01</item>
+        <item>FI02</item>
+        <item>FI03</item>
+        <item>FI04</item>
+        <item>FI05</item>
+        <item>FR01</item>
+        <item>FR02</item>
+        <item>FR03</item>
+        <item>FR04</item>
+        <item>FR05</item>
+        <item>K001</item>
+        <item>K002</item>
+        <item>LE01</item>
+        <item>LE02</item>
+        <item>LU01</item>
+        <item>LU02</item>
+        <item>M004</item>
+        <item>M011</item>
+        <item>M014</item>
+        <item>M019</item>
+        <item>M020</item>
+        <item>M021</item>
+        <item>M022</item>
+        <item>M023</item>
+        <item>M024</item>
+        <item>MT01</item>
+        <item>MT02</item>
+        <item>MT03</item>
+        <item>MT04</item>
+        <item>MT05</item>
+        <item>JP01</item>
+        <item>JP02</item>
+        <item>JP03</item>
+        <item>JP04</item>
+        <item>J003</item>
+        <item>J006</item>
+        <item>J007</item>
+        <item>J008</item>
+        <item>J009</item>
+        <item>P016</item>
+        <item>P017</item>
+        <item>P018</item>
+        <item>P019</item>
+        <item>P020</item>
+        <item>PN01</item>
+        <item>PN02</item>
+        <item>PN03</item>
+        <item>RD01</item>
+        <item>SD01</item>
+        <item>SD02</item>
+        <item>SD03</item>
+        <item>SD04</item>
+        <item>SW01</item>
+        <item>SW02</item>
+        <item>SW03</item>
+        <item>SW04</item>
+        <item>SW05</item>
+        <item>SW06</item>
+        <item>SW07</item>
+        <item>T001</item>
+        <item>T002</item>
+        <item>T003</item>
+        <item>T004</item>
+        <item>T005</item>
+    </string-array>
+
+    <!-- Forward Arrays -->
+
+    <string-array name="forward_grpcode">
+        <item>-Please Select-</item>
+        <item>DN-LTFO</item>
+        <item>DN-LTFO</item>
+        <item>DN-LTFO</item>
+        <item>DN-LTFO</item>
+    </string-array>
+
+    <string-array name="forward_reasons">
+        <item>-Please Select-</item>
+        <item>pertains to Commercial</item>
+        <item>pertains to PM</item>
+        <item>Pertains to SSM</item>
+        <item>pertains to UGM</item>
+
+    </string-array>
+
+    <string-array name="forward_reason_code">
+        <item>-Please Select-</item>
+        <item>F004</item>
+        <item>F003</item>
+        <item>F001</item>
+        <item>F002</item>
+    </string-array>
+
+    <!-- Material Array-->
+    <string-array name="material_cat">
+        <item>-Please Select-</item>
+        <item>Tools</item>
+        <item>Tools</item>
+        <item>Tools</item>
+        <item>Tools</item>
+        <item>Tools</item>
+        <item>Tools</item>
+        <item>Tools</item>
+        <item>Tools</item>
+        <item>Tools</item>
+        <item>Tools</item>
+        <item>Tools</item>
+        <item>PPEs</item>
+        <item>PPEs</item>
+        <item>PPEs</item>
+        <item>PPEs</item>
+        <item>PPEs</item>
+        <item>PPEs</item>
+        <item>Material</item>
+        <item>Material</item>
+        <item>Material</item>
+        <item>Material</item>
+        <item>Material</item>
+        <item>Material</item>
+        <item>Material</item>
+        <item>Material</item>
+        <item>Material</item>
+        <item>Material</item>
+        <item>Material</item>
+        <item>Material</item>
+        <item>Material</item>
+        <item>Material</item>
+        <item>Material</item>
+        <item>Material</item>
+    </string-array>
+
+    <string-array name="material_subcat">
+        <item>-Please Select-</item>
+        <item>AXE</item>
+        <item>BAG</item>
+        <item>BLADE</item>
+        <item>GLOVE</item>
+        <item>GLOVE</item>
+        <item>GLOVE</item>
+        <item>GLOVE</item>
+        <item>WRENCH</item>
+        <item>WRENCH</item>
+        <item>HAMMER</item>
+        <item>HAMMER</item>
+        <item>CAP</item>
+        <item>CAP</item>
+        <item>CAP</item>
+        <item>HARNESS</item>
+        <item>HELMET</item>
+        <item>HELMET</item>
+        <item>BOLT and NUT</item>
+        <item>BOLT and NUT</item>
+        <item>BOLT and NUT</item>
+        <item>BOLT and NUT</item>
+        <item>BOLT and NUT</item>
+        <item>BOLT and NUT</item>
+        <item>BOLT and NUT</item>
+        <item>CLAMP</item>
+        <item>CLAMP</item>
+        <item>CLAMP</item>
+        <item>CLAMP</item>
+        <item>CABLE</item>
+        <item>CABLE</item>
+        <item>CABLE</item>
+        <item>CABLE</item>
+        <item>CABLE</item>
+    </string-array>
+
+    <string-array name="material_desc">
+        <item>-Please Select-</item>
+        <item>AXE; PICK W/O HANDLE 22inch</item>
+        <item>BAG; CANVAS TOOL 16inch LENGTH</item>
+        <item>BLADE; HACKSAW DOUBLE TEETH 12inch</item>
+        <item>GLOVE; LEATHER</item>
+        <item>GLOVE; LEATHER ARTIFICIAL</item>
+        <item>GLOVE; RUBBER (CLASS-0)</item>
+        <item>GLOVE; RUBBER SAFETY 11KV CLASS:2 SIZE 9</item>
+        <item>WRENCH; FORK 18MM LV ABC</item>
+        <item>WRENCH; TORQUE 6~30NM W/ SOCKETS 10and13MM</item>
+        <item>HAMMER; MASON CHIESEL W/HANDLE 2-1/2LBS</item>
+        <item>HAMMER; MASON CHIESEL W/HANDLE 3LBS</item>
+        <item>CAP; CABLE END 25MM2</item>
+        <item>CAP; CABLE END 35MM2</item>
+        <item>CAP; CABLE END 50MM2</item>
+        <item>HARNESS; SAFETY FULL BODY</item>
+        <item>HELMET; SAFETY WHITE COLOR W/ CHINSTRIP</item>
+        <item>HELMET; SAFETY YELLOW W/CHN STRP W/VISOR</item>
+        <item>BOLT and NUT; G.I 6 X1/2 .</item>
+        <item>BOLT and NUT; MS 1-1/2  X 1/2 </item>
+        <item>BOLTandNUT; BRASS 1-1/2 X1/2 </item>
+        <item>BOLTandNUT; BRASS HEXA 2 X1/2 </item>
+        <item>BOLTandNUT; GI 1-1/2 X1/2 </item>
+        <item>BOLTandNUT; GI 1-1/2 X1/2  W/WASHER</item>
+        <item>BOLTandNUT; GI 1-1/4 X3/8  W/WASHER</item>
+        <item>CLAMP; GI, D-TYPE 3-1/2 </item>
+        <item>CLAMP; POLE G.I B-TYPE 4-1/2 </item>
+        <item>CLAMP; POLE G.I B-TYPE 5-1/2 </item>
+        <item>CLAMP; POLE G.I B-TYPE 6-1/2 </item>
+        <item>CABLE; CU LT PVC 4CORE 16MM2 ARM</item>
+        <item>CABLE; CU LT PVC 4CORE 120MM2 ARM</item>
+        <item>CABLE; CU LT PVC 4CORE 16MM2 UNARM</item>
+        <item>CABLE; CU LT PVC 4CORE 35MM2 UNARM</item>
+        <item>CABLE; CU LT PVC 2CORE 10 MM2 UNARM</item>
+    </string-array>
+
+    <integer-array  name="material_code">
+        <item>0</item>
+        <item>400014</item>
+        <item>400015</item>
+        <item>10023865</item>
+        <item>404752</item>
+        <item>10100574</item>
+        <item>404753</item>
+        <item>10093597</item>
+        <item>402194</item>
+        <item>401865</item>
+        <item>400180</item>
+        <item>400181</item>
+        <item>10025999</item>
+        <item>10036544</item>
+        <item>10036543</item>
+        <item>401741</item>
+        <item>10098284</item>
+        <item>400404</item>
+        <item>10021274</item>
+        <item>10001590</item>
+        <item>10029337</item>
+        <item>10001705</item>
+        <item>10001620</item>
+        <item>10025973</item>
+        <item>10023626</item>
+        <item>10001231</item>
+        <item>10001235</item>
+        <item>10001237</item>
+        <item>10001238</item>
+        <item>10005057</item>
+        <item>10005058</item>
+        <item>10005065</item>
+        <item>10005066</item>
+        <item>10005078</item>
+    </integer-array>
+
+    <string-array name="material_unit">
+        <item>-Please Select-</item>
+        <item>EA</item>
+        <item>EA</item>
+        <item>EA</item>
+        <item>PAA</item>
+        <item>PAA</item>
+        <item>PAA</item>
+        <item>EA</item>
+        <item>EA</item>
+        <item>SET</item>
+        <item>EA</item>
+        <item>EA</item>
+        <item>EA</item>
+        <item>EA</item>
+        <item>EA</item>
+        <item>EA</item>
+        <item>EA</item>
+        <item>EA</item>
+        <item>EA</item>
+        <item>EA</item>
+        <item>EA</item>
+        <item>EA</item>
+        <item>EA</item>
+        <item>EA</item>
+        <item>EA</item>
+        <item>EA</item>
+        <item>EA</item>
+        <item>EA</item>
+        <item>EA</item>
+        <item>M</item>
+        <item>M</item>
+        <item>M</item>
+        <item>M</item>
+        <item>M</item>
+    </string-array>
+
+    <string-array name="material_cat_unique">
+        <item>-Please Select-</item>
+        <item>Tools</item>
+        <item>PPEs</item>
+        <item>Material</item>
+    </string-array>
+
+    <string-array name="material_subcat_unique">
+        <item>-Please Select-</item>
+        <item>AXE</item>
+        <item>BAG</item>
+        <item>BLADE</item>
+        <item>GLOVE</item>
+        <item>WRENCH</item>
+        <item>HAMMER</item>
+        <item>CAP</item>
+        <item>HARNESS</item>
+        <item>HELMET</item>
+        <item>BOLT and NUT</item>
+        <item>CLAMP</item>
+        <item>CABLE</item>
+    </string-array>
+
+
+
+
+
+    <!-- Hold Arrays -->
+    <string-array name="hold_grpcode">
+        <item>-Please Select-</item>
+        <item>DN-LTHO</item>
+        <item>DN-LTHO</item>
+        <item>DN-LTHO</item>
+        <item>DN-LTHO</item>
+    </string-array>
+
+    <string-array name="hold_reason">
+        <item>-Please Select-</item>
+        <item>MTL issue</item>
+        <item>Prayer time</item>
+        <item>Road block/traffic Jam</item>
+        <item>Testing team required</item>
+    </string-array>
+
+    <string-array name="hold_reason_code">
+        <item>-Please Select-</item>
+        <item>C003</item>
+        <item>C001</item>
+        <item>C004</item>
+        <item>C002</item>
+    </string-array>
+
+
+    <!-- Reject Arrays -->
+    <string-array name="reject_grpcode">
+        <item>-Please Select-</item>
+        <item>DN-LTRE</item>
+        <item>DN-LTRE</item>
+        <item>DN-LTRE</item>
+        <item>DN-LTRE</item>
+        <item>DN-LTRE</item>
+        <item>DN-LTRE</item>
+        <item>DN-LTRE</item>
+    </string-array>
+
+
+    <string-array name="reject_reasons">
+        <item>-Please Select-</item>
+        <item>Law and order situation</item>
+        <item>MTL Issue</item>
+        <item>Others</item>
+        <item>Out of Area</item>
+        <item>Over Loaded</item>
+        <item>Pertains to other IBC</item>
+        <item>Shift Sign Off</item>
+    </string-array>
+
+    <string-array name="reject_reason_code">
+        <item>-Please Select-</item>
+        <item>R006</item>
+        <item>R001</item>
+        <item>R007</item>
+        <item>R004</item>
+        <item>R002</item>
+        <item>R005</item>
+        <item>R003</item>
+    </string-array>
+
+</resources>

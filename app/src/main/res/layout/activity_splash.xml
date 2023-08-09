@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:pv="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFF"
+    android:orientation="vertical">
+
+    <me.wangyuwei.particleview.ParticleView
+        android:id="@+id/pv_2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/version"
+        android:background="#e2e2e2"
+        android:paddingTop="50dp"
+        android:textStyle="bold"
+        android:visibility="gone"
+        pv:pv_background_color="#e2e2e2"
+        pv:pv_host_text="Complaint App"
+        pv:pv_host_text_anim_time="500"
+        pv:pv_particle_text="KE"
+        pv:pv_particle_text_size="20sp"
+        pv:pv_spread_anim_time="800"
+        pv:pv_text_anim_time="500"
+        pv:pv_text_color="@color/colorBg" />
+
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerInParent="true"
+        android:background="@drawable/splash_bg"
+        android:visibility="visible" />
+
+
+    <TextView
+        android:id="@+id/version"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:background="#aa000000"
+        android:gravity="center"
+        android:paddingBottom="3dp"
+        android:paddingTop="3dp"
+        android:textColor="#FFF"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        android:visibility="visible" />
+
+</RelativeLayout>

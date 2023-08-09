@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.isys.kecomplains2.pk.com.ke.com.isys.kecomplains2.CompleteNotificationActivity">
+
+    <include
+        android:id="@+id/toolbar"
+        layout="@layout/toolbar_main" />
+
+    <RelativeLayout
+        android:id="@+id/rel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/toolbar"
+        android:background="@color/colorKeBlack"
+        android:paddingLeft="@dimen/_5sdp"
+        android:paddingRight="@dimen/_5sdp">
+
+        <TextView
+            android:id="@+id/ticket_count"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:text="Total Tickets : "
+            android:textColor="#fff"
+            android:textStyle="bold" />
+
+        <CheckBox
+            android:id="@+id/checkAll"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:checked="true"
+            android:text="Check All"
+            android:textColor="#FFF"
+            android:theme="@android:style/Theme.Holo" />
+    </RelativeLayout>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/ticket_list"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/bottomView"
+        android:layout_below="@+id/rel" />
+
+    <LinearLayout
+        android:id="@+id/bottomView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="@dimen/_8sdp"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:id="@+id/bottomView1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:orientation="horizontal"
+            android:weightSum="12">
+
+            <TextView
+                android:layout_width="40dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="@dimen/_5sdp"
+                android:layout_marginRight="0dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="Fault Category"
+                android:textSize="@dimen/_15ssp"
+                android:textStyle="bold" />
+
+            <Spinner
+                android:id="@+id/spin_dialog0"
+                android:layout_width="0dp"
+                android:layout_height="45dp"
+                android:layout_marginLeft="0dp"
+                android:layout_marginRight="2dp"
+                android:layout_weight="3"
+                android:background="@drawable/drop_back"
+                android:gravity="center"
+                android:paddingRight="@dimen/_15sdp"
+                android:spinnerMode="dropdown" />
+
+            <TextView
+                android:id="@+id/tvFault"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="25dp"
+                android:layout_marginRight="0dp"
+                android:layout_marginTop="@dimen/_5sdp"
+                android:layout_weight="1"
+                android:text="Fault"
+                android:textSize="@dimen/_15ssp"
+                android:textStyle="bold" />
+
+            <Spinner
+                android:id="@+id/spin_dialog1"
+                android:layout_width="0dp"
+                android:layout_height="45dp"
+                android:layout_marginLeft="0dp"
+                android:layout_marginRight="2dp"
+                android:layout_weight="3"
+                android:background="@drawable/drop_back"
+                android:gravity="center"
+                android:paddingRight="@dimen/_15sdp"
+                android:spinnerMode="dropdown" />
+
+            <TextView
+                android:id="@+id/tvCause"
+                android:layout_width="11dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="25dp"
+                android:layout_marginTop="@dimen/_5sdp"
+                android:layout_marginRight="0dp"
+                android:layout_weight="1"
+                android:text="Cause"
+                android:textSize="@dimen/_15ssp"
+                android:textStyle="bold"
+                android:visibility="gone"/>
+
+            <Spinner
+                android:id="@+id/spin_dialog2"
+                android:layout_width="0dp"
+                android:layout_height="45dp"
+                android:layout_marginLeft="0dp"
+                android:layout_marginRight="20dp"
+                android:layout_weight="3"
+                android:background="@drawable/drop_back"
+                android:gravity="center"
+                android:paddingRight="@dimen/_15sdp"
+                android:spinnerMode="dropdown"
+                android:visibility="gone"/>
+        </LinearLayout>
+
+        <RelativeLayout
+            android:id="@+id/submit"
+            android:layout_width="wrap_content"
+            android:layout_height="45dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginRight="@dimen/_5sdp"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:background="@drawable/rounded_corner_blue"
+            android:gravity="center">
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/complete"
+                android:layout_width="160dp"
+                android:layout_height="match_parent"
+                android:background="?attr/selectableItemBackground"
+                android:text="Submit" />
+
+        </RelativeLayout>
+    </LinearLayout>
+</RelativeLayout>

@@ -1,0 +1,245 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/rootView"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="10dp"
+    android:layout_marginRight="10dp"
+    android:orientation="horizontal">
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/_2sdp"
+        android:layout_marginTop="@dimen/_2sdp"
+        android:background="#11000000"
+        android:orientation="horizontal"
+        app:cardBackgroundColor="#11000000"
+        app:cardCornerRadius="@dimen/_10sdp"
+        app:cardElevation="0dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="@dimen/_10sdp">
+
+            <ImageView
+                android:id="@+id/ivImage"
+                android:layout_width="@dimen/_90sdp"
+                android:layout_height="@dimen/_90sdp"
+                android:layout_centerVertical="true"
+                android:visibility="gone" />
+
+            <RelativeLayout
+                android:id="@+id/firstRow"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@id/ivImage"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_toLeftOf="@+id/tvStatus"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/labelNoti"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentLeft="true"
+                        android:layout_centerVertical="true"
+                        android:layout_gravity="center_vertical"
+                        android:text="Item #"
+                        android:textColor="@color/f_dark_gray_2"
+                        android:textSize="@dimen/_13ssp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/tvMatNo"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentLeft="true"
+                        android:layout_centerVertical="true"
+                        android:fontFamily="@string/roboto_light"
+                        android:maxLength="15"
+                        android:textColor="@color/colorKeBlue"
+                        android:textSize="@dimen/_15ssp"
+                        android:textStyle="bold" />
+                </LinearLayout>
+
+                <TextView
+                    android:id="@+id/cartProductPrice"
+                    android:layout_width="@dimen/_90sdp"
+                    android:layout_height="@dimen/_15sdp"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:gravity="center"
+                    android:text="ASSIGNED"
+                    android:textColor="#FFF"
+                    android:background="@color/app_blue"/>
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/secondRow"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/firstRow"
+                android:layout_toRightOf="@id/ivImage"
+                android:gravity="left|center_vertical"
+                android:orientation="horizontal"
+                android:paddingRight="@dimen/_10sdp">
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/labelAdd"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentLeft="true"
+                        android:layout_centerVertical="true"
+                        android:layout_marginRight="@dimen/_3sdp"
+                        android:text="Desc:"
+                        android:textColor="@color/f_dark_gray_2"
+                        android:textSize="@dimen/_13ssp"
+                        android:textStyle="bold"
+                        android:visibility="visible" />
+
+                    <TextView
+                        android:id="@+id/cartProductName"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:lines="2"
+                        android:text="wfcwevfwev"
+                        android:textColor="@color/colorKeBlack"
+                        android:textSize="@dimen/_13ssp"
+                        android:visibility="visible" />
+                </LinearLayout>
+
+            </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/thirdRow"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/ivImage"
+
+            android:layout_below="@id/secondRow"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
+
+                <ImageButton
+                    android:id="@+id/cartButtonQuantityRemove"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:backgroundTint="@color/f_orange"
+                    app:srcCompat="@drawable/remove_icon" />
+
+                <EditText
+                    android:id="@+id/cartEditTextQuantity"
+                    android:layout_width="50dp"
+                    android:layout_height="40dp"
+                    android:layout_marginEnd="2dp"
+                    android:ems="10"
+                    android:inputType="textPersonName"
+                    android:textAlignment="center"
+                    app:layout_constraintVertical_bias="0.488" />
+
+                <ImageButton
+                    android:id="@+id/cartButtonQuantityAdd"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:backgroundTint="@color/f_orange"
+                    app:layout_constraintVertical_bias="0.488"
+                    app:srcCompat="@drawable/add_icon" />
+
+
+                <!--                <TextView-->
+                <!--                    android:id="@+id/labelFault"-->
+                <!--                    android:layout_width="wrap_content"-->
+                <!--                    android:layout_height="wrap_content"-->
+                <!--                    android:layout_alignParentLeft="true"-->
+                <!--                    android:layout_centerVertical="true"-->
+                <!--                    android:layout_marginRight="@dimen/_7sdp"-->
+                <!--                    android:text="DTS Name:"-->
+                <!--                    android:textColor="@color/f_dark_gray_2"-->
+                <!--                    android:textSize="@dimen/_13ssp"-->
+                <!--                    android:textStyle="bold" />-->
+
+                <!--                <TextView-->
+                <!--                    android:id="@+id/tvFaultDTS"-->
+                <!--                    android:layout_width="wrap_content"-->
+                <!--                    android:layout_height="wrap_content"-->
+                <!--                    android:layout_gravity="center_vertical"-->
+                <!--                    android:paddingRight="@dimen/_10sdp"-->
+                <!--                    android:text=""-->
+                <!--                    android:textSize="@dimen/_15ssp" />-->
+            </LinearLayout>
+
+            <ImageButton
+                android:id="@+id/cartDeleteButton"
+                android:layout_width="100dp"
+                android:layout_height="40dp"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="@dimen/_7sdp"
+
+                android:layout_centerInParent="true"
+                app:srcCompat="@drawable/delete_icon"
+                android:backgroundTint="@color/red"/>
+
+        </RelativeLayout>
+
+
+<!--            <LinearLayout-->
+<!--                android:id="@+id/fourthRow"-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_below="@id/thirdRow"-->
+<!--                android:layout_marginBottom="@dimen/_8sdp"-->
+<!--                android:layout_marginTop="@dimen/_3sdp"-->
+<!--                android:layout_toRightOf="@id/ivImage"-->
+<!--                android:gravity="center_vertical"-->
+<!--                android:orientation="horizontal">-->
+
+<!--                <TextView-->
+<!--                    android:id="@+id/labelTat"-->
+<!--                    android:layout_width="wrap_content"-->
+<!--                    android:layout_height="wrap_content"-->
+<!--                    android:layout_alignParentLeft="true"-->
+<!--                    android:layout_centerVertical="true"-->
+<!--                    android:layout_marginRight="@dimen/_7sdp"-->
+<!--                    android:text="TAT:"-->
+<!--                    android:textColor="@color/f_dark_gray_2"-->
+<!--                    android:textSize="@dimen/_13ssp"-->
+<!--                    android:textStyle="bold" />-->
+
+<!--                <TextView-->
+<!--                    android:id="@+id/tvTAT"-->
+<!--                    android:layout_width="wrap_content"-->
+<!--                    android:layout_height="wrap_content"-->
+<!--                    android:layout_gravity="center_vertical"-->
+<!--                    android:paddingRight="@dimen/_10sdp"-->
+<!--                    android:text=""-->
+<!--                    android:textSize="@dimen/_15ssp" />-->
+<!--            </LinearLayout>-->
+        </RelativeLayout>
+    </androidx.cardview.widget.CardView>
+
+
+</LinearLayout>
